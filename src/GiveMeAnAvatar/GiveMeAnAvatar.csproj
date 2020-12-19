@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.1.0</Version>
+    <Description>Gets a random avatar URL from a collection of different avatar generation services.</Description>
+    <Authors>Clyde D'Souza</Authors>
+    <Product>Give Me an Avatar</Product>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Copyright>Copyright (c) 2020 Clyde D'Souza</Copyright>
+    <PackageProjectUrl>https://github.com/ClydeDz/give-me-an-avatar-nuget</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ClydeDz/give-me-an-avatar-nuget</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>
