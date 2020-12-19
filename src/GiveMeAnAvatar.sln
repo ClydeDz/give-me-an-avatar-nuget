@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiveMeAnAvatar", "GiveMeAnAvatar\GiveMeAnAvatar.csproj", "{E6E85C84-BA11-41DF-A80D-9F6CC43673AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GiveMeAnAvatar", "GiveMeAnAvatar\GiveMeAnAvatar.csproj", "{E6E85C84-BA11-41DF-A80D-9F6CC43673AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiveMeAnAvatar.Tests", "GiveMeAnAvatar.Tests\GiveMeAnAvatar.Tests.csproj", "{CF26D4C2-1725-4A37-B336-1C9F47DFC149}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GiveMeAnAvatar.Tests", "GiveMeAnAvatar.Tests\GiveMeAnAvatar.Tests.csproj", "{CF26D4C2-1725-4A37-B336-1C9F47DFC149}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiveMeAnAvatar.TestConsole", "GiveMeAnAvatar.TestConsole\GiveMeAnAvatar.TestConsole.csproj", "{13A0E688-92D3-48BC-910D-C0E14CAF0E29}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{CF26D4C2-1725-4A37-B336-1C9F47DFC149}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF26D4C2-1725-4A37-B336-1C9F47DFC149}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF26D4C2-1725-4A37-B336-1C9F47DFC149}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13A0E688-92D3-48BC-910D-C0E14CAF0E29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13A0E688-92D3-48BC-910D-C0E14CAF0E29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13A0E688-92D3-48BC-910D-C0E14CAF0E29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13A0E688-92D3-48BC-910D-C0E14CAF0E29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

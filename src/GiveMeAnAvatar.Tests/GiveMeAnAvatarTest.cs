@@ -1,14 +1,16 @@
 using System;
 using Xunit;
+using GiveMeAnAvatar;
 
 namespace GiveMeAnAvatar.Tests
 {
     public class GiveMeAnAvatarTest
     {
         [Fact]
-        public void Test1()
+        public void GetAvatarURL_Returns_URL()
         {
-            Assert.True(true);
+            var avatarURL = GiveMeAnAvatar.GetAvatarURL();
+            Assert.Empty(avatarURL);
         }
     }
 }
