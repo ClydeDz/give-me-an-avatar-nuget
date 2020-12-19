@@ -1,6 +1,4 @@
 ﻿using GiveMeAnAvatar.Helpers;
-using GiveMeAnAvatar.Model;
-using System;
 
 namespace GiveMeAnAvatar
 {

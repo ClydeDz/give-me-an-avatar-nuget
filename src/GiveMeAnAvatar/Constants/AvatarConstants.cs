@@ -1,9 +1,5 @@
 ﻿using GiveMeAnAvatar.Model;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace GiveMeAnAvatar.Constants
 {
@@ -39,24 +35,13 @@ namespace GiveMeAnAvatar.Constants
             new AvatarModel("robohash.org", "https://robohash.org/${this.Name}?size=${this.Size}x${this.Size}${this.ExtraFilter}"),
             new AvatarModel("avatars.dicebear.com", "https://avatars.dicebear.com/api${this.ExtraFilter}/${this.Name}.svg?w=${this.Size}&h=${this.Size}"),
             new AvatarModel("avatar.uimaterial.com", "https://avatar.uimaterial.com/?name=${this.Name}&size=${this.Size}${this.ExtraFilter}")
-        };
+        }; 
 
-        internal static readonly Dictionary<string, string> ExtraFilterCollection = new Dictionary<string, string>
+        internal static readonly Dictionary<string, List<string>> ExtraFilterCollection = new Dictionary<string, List<string>>
         {
-            {"robohash.org", "&set=set1"},
-            {"robohash.org", "&set=set2"},
-            {"robohash.org", "&set=set3"},
-            {"robohash.org", "&set=set4"},
-            {"avatars.dicebear.com", "/gridy"},
-            {"avatars.dicebear.com", "/human"},
-            {"avatars.dicebear.com", "/identicon"},
-            {"avatars.dicebear.com", "/jdenticon"},
-            {"avatars.dicebear.com", "/avataaars"},
-            {"avatars.dicebear.com", "/bottts"},
-            {"avatar.uimaterial.com", "&setId=8Pfmys5bgfL2NbXFG2sU"},
-            {"avatar.uimaterial.com", "&setId=0496UVJDTqyd2eCIAa46"},
-            {"avatar.uimaterial.com", "&setId=SM2u3518GjohwtHQXNK0"},
-            {"avatar.uimaterial.com", "&setId=Pb7ErSM37KjjIZyJk8w6"}
+            {"robohash.org", new List<string>(){"&set=set1", "&set=set2", "&set=set3", "&set=set4"}},
+            {"avatars.dicebear.com", new List<string>(){ "/gridy", "/human", "/identicon", "/jdenticon", "/avataaars", "/bottts"}},
+            {"avatar.uimaterial.com", new List<string>(){ "&setId=8Pfmys5bgfL2NbXFG2sU", "&setId=0496UVJDTqyd2eCIAa46", "&setId=SM2u3518GjohwtHQXNK0", "&setId=Pb7ErSM37KjjIZyJk8w6"}}
         };
     }
 }

@@ -1,6 +1,4 @@
-using System;
 using Xunit;
-using GiveMeAnAvatar;
 
 namespace GiveMeAnAvatar.Tests
 {

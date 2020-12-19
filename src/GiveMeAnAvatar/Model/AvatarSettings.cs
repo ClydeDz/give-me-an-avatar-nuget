@@ -1,4 +1,4 @@
-﻿namespace GiveMeAnAvatar.Model
+﻿namespace GiveMeAnAvatar
 {
     public class AvatarSettings
     {

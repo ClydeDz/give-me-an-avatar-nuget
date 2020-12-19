@@ -1,5 +1,4 @@
 ﻿using System;
-using GiveMeAnAvatar;
 
 namespace GiveMeAnAvatar.TestConsole
 {
@@ -7,7 +6,9 @@ namespace GiveMeAnAvatar.TestConsole
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("");
+            Console.WriteLine(GiveMeAnAvatar.GetAvatarURL());
+            var settings = new AvatarSettings() { Name = "Axel Drew", Size = 124 };
+            Console.WriteLine(GiveMeAnAvatar.GetAvatarURL(settings));
         }
     }
 }
