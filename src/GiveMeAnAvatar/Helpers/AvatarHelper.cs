@@ -65,7 +65,7 @@ namespace GiveMeAnAvatar.Helpers
 
         internal static string ApplyExtraFiltersToAvatarURL(string avatarServiceKey)
         { 
-            if (!AvatarConstants.ExtraFilterCollection.ContainsKey(avatarServiceKey))
+            if (string.IsNullOrEmpty(avatarServiceKey) || !AvatarConstants.ExtraFilterCollection.ContainsKey(avatarServiceKey))
             {
                 return "";
             }
