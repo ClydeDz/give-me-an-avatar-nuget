@@ -11,6 +11,16 @@
     <Copyright>Copyright (c) 2020 Clyde D'Souza</Copyright>
     <PackageProjectUrl>https://github.com/ClydeDz/give-me-an-avatar-nuget</PackageProjectUrl>
     <RepositoryUrl>https://github.com/ClydeDz/give-me-an-avatar-nuget</RepositoryUrl>
+    <PackageIcon>Icon.jpg</PackageIcon>
+    <PackageReleaseNotes>Development release</PackageReleaseNotes>
+    <PackageTags>avatar avatar-generator avatar-library random-avatar</PackageTags>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\Icon.jpg">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
