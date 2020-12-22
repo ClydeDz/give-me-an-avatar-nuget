@@ -10,6 +10,11 @@
         private string _extraFilter;
 
         /// <summary>
+        /// Use these avatar settings to customize your avatar a bit.
+        /// </summary>
+        public AvatarSettings() { }
+
+        /// <summary>
         /// (Optional) Some avatars display user initials or even the full name and if this setting isn't supplied, 
         /// the program randomly decides a user initial. Feel free to supply a value if you need to
         /// override this value.
