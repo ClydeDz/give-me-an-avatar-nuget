@@ -21,12 +21,7 @@ Command to install Give Me an Avatar NuGet via the Package Manager Console UI in
 PM> Install-Package GiveMeAnAvatar
 ```
 
-Include the namespace in your program.
-```C#
-using GiveMeAnAvatar;
-```
-
-Then go ahead and consume it.
+Go ahead and consume it directly.
 ```C#
 var avatarURL= GiveMeAnAvatar.GetAvatarURL();
 ``` 
