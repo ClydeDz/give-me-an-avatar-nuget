@@ -13,6 +13,7 @@
     <RepositoryUrl>https://github.com/ClydeDz/give-me-an-avatar-nuget</RepositoryUrl>
     <PackageIcon>Icon.jpg</PackageIcon>
     <PackageReleaseNotes>Development release.</PackageReleaseNotes>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <PackageTags>avatar avatar-generator avatar-library random-avatar mock-avatars gravatar placeholder-image identicon robohash thispersondoesnotexist human-avatars pixel-art-avatar ui-avatar picsum dummyimage avataaar uimaterial-avatars jdenticon</PackageTags>
   </PropertyGroup>
 
