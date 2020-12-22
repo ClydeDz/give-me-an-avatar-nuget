@@ -1,6 +1,6 @@
 <div align="center">
 	<br>
-	<img width="172" src="https://raw.githubusercontent.com/ClydeDz/give-me-an-avatar-npm/main/icon.jpg" alt="Give me an avatar npm package icon">
+	<img width="172" src="https://raw.githubusercontent.com/ClydeDz/give-me-an-avatar-nuget/main/Icon.jpg" alt="Give me an avatar NuGet package icon">
 	<br>
 	<br>
 </div>  
@@ -8,12 +8,17 @@
 # Give Me an Avatar
 Gets a random avatar URL from a collection of different avatar generation services.  
 
+[![Azure DevOps builds](https://img.shields.io/azure-devops/build/clydedsouza-nuget/03b052e2-ef54-44b2-82b3-3c3a1e09d864/10?logo=Azure%20DevOps)](https://dev.azure.com/clydedsouza-nuget/Give%20Me%20an%20Avatar%20NuGet/_build) 
+[![Azure DevOps tests](https://img.shields.io/azure-devops/tests/clydedsouza-nuget/Give%2520Me%2520an%2520Avatar%2520NuGet/10?logo=Azure%20DevOps)](https://dev.azure.com/clydedsouza-nuget/Give%20Me%20an%20Avatar%20NuGet/_build) 
+[![Nuget](https://img.shields.io/nuget/v/GiveMeAnAvatar?color=brightgreen&logo=NuGet)](https://www.nuget.org/packages/GiveMeAnAvatar) 
+[![Nuget](https://img.shields.io/nuget/dt/GiveMeAnAvatar?color=brightgreen&logo=NuGet)](https://www.nuget.org/packages/GiveMeAnAvatar)      
+
 ## Installation and usage
-Library can either be directly downloaded from [Nuget.org](https://www.nuget.org/packages/give-me-an-avatar/), OR installed via the [NuGet Package Manager UI](https://docs.microsoft.com/en-us/nuget/tools/package-manager-ui#finding-and-installing-a-package) or via the [Package Manager Console](https://docs.microsoft.com/en-us/nuget/tools/package-manager-console) if you're using Visual Studio.
+Library can either be directly downloaded from [Nuget.org](https://www.nuget.org/packages/GiveMeAnAvatar), OR installed via the [NuGet Package Manager UI](https://docs.microsoft.com/en-us/nuget/tools/package-manager-ui#finding-and-installing-a-package) or via the [Package Manager Console](https://docs.microsoft.com/en-us/nuget/tools/package-manager-console) if you're using Visual Studio.
 
 Command to install Give Me an Avatar NuGet via the Package Manager Console UI in Visual Studio shown below.
 ```PowerShell
-PM> Install-Package give-me-an-avatar
+PM> Install-Package GiveMeAnAvatar
 ```
 
 Include the namespace in your program.
@@ -40,7 +45,7 @@ var avatarURL= GiveMeAnAvatar.GetAvatarURL(settings);
 |--------------------------------------------|------------------------------------------------------|
 | [placeholder.com](https://placeholder.com) | ![image](https://via.placeholder.com/128?Text=J%20S) |
 | [placeimg.com](https://placeimg.com)       | ![image](https://placeimg.com/128/128/people)        |
-| [placekitten.com](https://placekitten.com) | ![image](https://placekitten.com/g/128/128?cache=invalidate)          |
+| [placekitten.com](https://placekitten.com) | ![image](https://placekitten.com/g/128/128?cache=invalidate-nuget)          |
 | [dummyimage.com](https://dummyimage.com/)  | ![image](https://dummyimage.com/128x128&text=J%20S)  |
 | [loremflickr.com](https://loremflickr.com) | ![image](https://loremflickr.com/128/128/human)      |
 | [baconmockup.com](https://baconmockup.com) | ![image](https://baconmockup.com/128/128/)           |
@@ -63,6 +68,6 @@ var avatarURL= GiveMeAnAvatar.GetAvatarURL(settings);
 * Placekitten image might appear broken at times in the table above, however, the image service itself runs fine.     
 
 ## Credits   
-- All the avatar services used in this npm package are outlined in the table above.    
+- All the avatar services used in this NuGet package are outlined in the table above.    
 - Package logo created using [AutoDraw](https://www.autodraw.com/).   
-- This NPM package is developed by [Clyde D'Souza](https://twitter.com/clydedz).
+- This NuGet package is developed by [Clyde D'Souza](https://twitter.com/clydedz).
