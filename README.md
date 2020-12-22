@@ -40,7 +40,7 @@ var avatarURL= GiveMeAnAvatar.GetAvatarURL(settings);
 |--------------------------------------------|------------------------------------------------------|
 | [placeholder.com](https://placeholder.com) | ![image](https://via.placeholder.com/128?Text=J%20S) |
 | [placeimg.com](https://placeimg.com)       | ![image](https://placeimg.com/128/128/people)        |
-| [placekitten.com](https://placekitten.com) | ![image](https://placekitten.com/g/128/128?cache=nuget)          |
+| [placekitten.com](https://placekitten.com) | ![image](https://placekitten.com/g/128/128?usage=readme)          |
 | [dummyimage.com](https://dummyimage.com/)  | ![image](https://dummyimage.com/128x128&text=J%20S)  |
 | [loremflickr.com](https://loremflickr.com) | ![image](https://loremflickr.com/128/128/human)      |
 | [baconmockup.com](https://baconmockup.com) | ![image](https://baconmockup.com/128/128/)           |
