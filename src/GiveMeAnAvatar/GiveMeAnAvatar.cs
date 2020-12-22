@@ -5,7 +5,7 @@ namespace GiveMeAnAvatar
     /// <summary>
     /// Service to return a random avatar URL from a collection of different avatar generation services.
     /// </summary>
-    public class GiveMeAnAvatar
+    public static class GiveMeAnAvatar
     {
         /// <summary>
         /// Returns the URL of an avatar that is picked at random.

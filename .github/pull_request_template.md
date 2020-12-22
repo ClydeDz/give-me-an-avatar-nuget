@@ -12,6 +12,7 @@
 - [ ] My change requires a change to the documentation in the `README` file.
 - [ ] I have updated the documentation in the `README` file accordingly.
 - [ ] I have updated the version number in the [`GiveMeAnAvatar.csproj`](https://github.com/ClydeDz/give-me-an-avatar-nuget/blob/main/src/GiveMeAnAvatar/GiveMeAnAvatar.csproj) file using the [SemVer](https://semver.org/) format.
+- [ ] If I've added a class/method/any other object for public consumption, it is in the GiveMeAnAvatar namespace , i.e. `namespace GiveMeAnAvatar`.
 - [ ] I have added tests to cover my changes.
 - [ ] All new and existing tests passed.
 
