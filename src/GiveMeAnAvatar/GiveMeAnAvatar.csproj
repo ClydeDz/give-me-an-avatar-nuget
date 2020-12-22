@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net5.0</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>0.1.0</Version>
+    <Version>0.2.0</Version>
     <Description>Gets a random avatar URL from a collection of different avatar generation services.</Description>
     <Authors>Clyde D'Souza</Authors>
     <Product>Give Me an Avatar</Product>
@@ -12,8 +12,8 @@
     <PackageProjectUrl>https://github.com/ClydeDz/give-me-an-avatar-nuget</PackageProjectUrl>
     <RepositoryUrl>https://github.com/ClydeDz/give-me-an-avatar-nuget</RepositoryUrl>
     <PackageIcon>Icon.jpg</PackageIcon>
-    <PackageReleaseNotes>Development release</PackageReleaseNotes>
-    <PackageTags>avatar avatar-generator avatar-library random-avatar</PackageTags>
+    <PackageReleaseNotes>Development release.</PackageReleaseNotes>
+    <PackageTags>avatar avatar-generator avatar-library random-avatar mock-avatars gravatar placeholder-image identicon robohash thispersondoesnotexist human-avatars pixel-art-avatar ui-avatar picsum dummyimage avataaar uimaterial-avatars jdenticon</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
