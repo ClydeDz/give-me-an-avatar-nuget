@@ -23,13 +23,13 @@ PM> Install-Package GiveMeAnAvatar
 
 Go ahead and consume it directly.
 ```C#
-var avatarURL= GiveMeAnAvatar.GetAvatarURL();
+var avatarURL = GiveMeAnAvatar.GetAvatarURL();
 ``` 
   
 Or supply optional settings to get a slightly customized avatar URL.
 ```C#
 var settings = new AvatarSettings() { Name = "John Smith", Size = 124 };
-var avatarURL= GiveMeAnAvatar.GetAvatarURL(settings);
+var avatarURL = GiveMeAnAvatar.GetAvatarURL(settings);
 ``` 
 
     
